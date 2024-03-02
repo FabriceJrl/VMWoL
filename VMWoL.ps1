@@ -100,7 +100,7 @@ function Wake-VM
 				Write-Host
 			}
 		}
-    }
+  }
 
 	if ($MatchCount -eq 0) {
 		Write-Host "No virtual machines found with specified MAC address on host"
